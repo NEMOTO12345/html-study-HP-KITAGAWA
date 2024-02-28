@@ -86,6 +86,7 @@ footer{
     border-top: 1px solid #99ff66;
 }
 img{
+    /* max-widthを100%にすることで、その要素の本来の幅より画面幅が狭くなったときに、画面幅に合わせて要素の幅が調整されるのです。 */
     max-width: 100%;
     height: auto;
 }
