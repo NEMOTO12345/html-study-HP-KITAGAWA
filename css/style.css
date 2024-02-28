@@ -1,14 +1,25 @@
 body{
+    font-family: "メイリオ""Hiragino Kaku Gothic Pro""sans-serif";
     margin: 0;
     background-color: #000;
+    padding: 0;
+    color: white;
 }
 
 header h1{
+    font-size: 200%;
     margin-top: 0;
     margin-bottom: 0;
     color: goldenrod;
+    font-family:Cambria, Palatino, serif;
 }
 
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
 
 nav ul{
     display: flex;
@@ -16,49 +27,61 @@ nav ul{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: blueviolet;
-    color: aliceblue;
 }
 
-ul{
-    list-style-type: none;
-    padding-left: 0;
-}
 
-li{
+
+nav li{
     padding-right: 10px;
 }
 
 article{
     position: relative;
-    color: aliceblue;
 }
 
 .catch{
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 40px;
+    left: 50px;
     background-color: rgba(36, 35, 35, 0.5);
     padding: 10px;
+    text-shadow: 0 5px 10px #000;
 }
 
 
-section h1{
-    display: inline;
+.new{
     background-color:yellow;
-    border-radius: 100%;
-    margin-top: 10px;
-    color: #000;
-    padding: 10px;
+    color: #333;
+    background-image: linear-gradient(to bottom, #ffffcc, #ffcc66);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+aside h1{
+    font-size: 120%;
+    border-bottom: 2px dotted #666;
+    margin: 0;
+}
+aside li{
+    border-bottom: 2px dotted #666;
+    height: 53px;
+}
+.shop{
+    display: block;
+    font-size: 80%;
+    color: #ffcc66;
+    font-weight: bold;
+}
+
+aside img{
+    float: left;
 }
 
 aside li{
-    border-bottom: 1px solid rgb(54, 55, 55);   
-}
-span{
-    display: block;
+    clear: both;
 }
 
 footer{
     text-align: center;
-    color: aliceblue;
+    border-top: 1px solid #99ff66;
 }
