@@ -65,8 +65,8 @@ article{
     color: #333;
     background-image: linear-gradient(to bottom, #ffffcc, #ffcc66);
     border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 5px 5px;
+
 }
 aside h1{
     font-size: 120%;
@@ -79,7 +79,7 @@ aside li{
 }
 .shop{
     display: block;
-    font-size: 80%;
+    font-size: 70%;
     color: #ffcc66;
     font-weight: bold;
 }
@@ -133,6 +133,10 @@ td{
 .sub-h1{
     border-left:20px solid navy;
     padding-left: 10px;
+}
+.h1-sub{
+    border-left:20px solid navy;
+    padding-left: 10px; 
 }
 
 caption{
