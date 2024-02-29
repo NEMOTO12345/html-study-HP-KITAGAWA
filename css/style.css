@@ -105,16 +105,19 @@ img{
 table{
     color: #000;
     border-collapse: collapse;
+    /* ↑表を中央寄せ */
 
 }
 
-.table h1{
-    font-size: 20%;
+caption{
+    color: white;
+    font-weight: bold;
 }
 th{
     border: 1px solid #000;
-    background-color: #666;
+    background-color: #99ff66;
     padding: 5px;
+    font-size: 90%;
 }
 
 td{
@@ -125,6 +128,16 @@ td{
 
 .table{
     clear: both;
+}
+
+.sub-h1{
+    border-left:20px solid navy;
+    padding-left: 10px;
+}
+
+caption{
+    color: #ffcc66;
+    font-weight: bold;
 }
 @media (max-width:960px) {
     header h1{
