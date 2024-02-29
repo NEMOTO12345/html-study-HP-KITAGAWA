@@ -143,6 +143,25 @@ caption{
     color: #ffcc66;
     font-weight: bold;
 }
+
+video{
+    max-width: 100%;
+    height: auto;
+}
+input{
+    width: 440px;
+    display: block;
+}
+textarea{
+    width: 660px;
+    height: 150px;
+    display: block;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    display: block;
+}
 @media (max-width:960px) {
     header h1{
         margin-left: auto;
@@ -173,7 +192,7 @@ caption{
     }
 }
 
-@media (max-width) {
+@media (max-width:600px) {
     header h1{
         font-size: 150%;
     }
@@ -185,5 +204,14 @@ caption{
         top: 20px;
         left: 10px;
         padding: 5px;
+    }
+    input{
+        width: 330px;
+    }
+    textarea{
+        width: 330px;
+    }
+    button{
+        width: 330px;
     }
 }
